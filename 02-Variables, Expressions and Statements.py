@@ -18,4 +18,3 @@ print (x)
 # Pyhton first evaluates the expression with the assigned value and then updates variable value in consequence
 
 
-
