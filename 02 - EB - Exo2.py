@@ -1,6 +1,6 @@
 hrs = input("Enter  number of hours: ")
 rte = input("Enter rate per hour: ")
-mla =  int(hrs) * int(rte)
+mla = float(hrs) * float(rte)
 print("this month moola income is:",mla,"€")#coma prints a space
 
 
