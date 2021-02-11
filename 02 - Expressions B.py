@@ -9,5 +9,17 @@
 
 #type() function indicates type of the variable
 
-#stoped at 7:40 min
+#convert a const class to another
+#int()
+#float()
+#str()
+sval = "123"
+print(sval)
+
+name = input ("who are u") # allows user to interact with a text with an extra print line
+print ("hello", name) # add as many , as u want
+
+nam = input() #input function always gives back a str
+
+
 
