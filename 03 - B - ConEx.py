@@ -25,9 +25,9 @@ rawster = input("Enter a number ")
 try:
     ival = int(rawster)# this way anticipates user input induced errors
 except:
-    ival = -1
+    ival = -1#easy way to cope with wrong user inputs for this example. negative numbers are also convertible to int/floats
 
 if ival > 0:
     print("Nice work")
 else:
-    print("Not a number")
+    print("Not a number")#
