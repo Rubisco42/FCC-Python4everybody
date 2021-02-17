@@ -1,6 +1,6 @@
 #elif : multi way conditional
 
-x = int(input("enter number "))
+x = int(input("enter number "))# if user inputs is f up, crashes everything
 #be careful to convert the input (= string) to integer to use comparison operators
 
 if x < 2:
@@ -17,3 +17,17 @@ else:
 #elif x < 10  : 6 is below 10 and below 20. second elif will never run
 #be careful to the order of of conditional statement
 
+#try/except structure alows to anticipate section of code that could lead to error (ex with user input
+# if the try condition doesn t lead to error, except is skipped
+#if try condition leads to errors, except section is run instead
+
+rawster = input("Enter a number ")
+try:
+    ival = int(rawster)# this way anticipates user input induced errors
+except:
+    ival = -1
+
+if ival > 0:
+    print("Nice work")
+else:
+    print("Not a number")
